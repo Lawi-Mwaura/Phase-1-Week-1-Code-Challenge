@@ -1,0 +1,18 @@
+{
+  "name": "phase-1-week-1-code-challenge",
+  "version": "1.0.0",
+  "description": "Grade calculator",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "phase-1-week-1-code-challenge)"
+  },
+  "author": "Lawi Mwaura",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

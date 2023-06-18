@@ -2,9 +2,9 @@
 
 #Project Description
 
-This repository contains a series of code challenges designed to assess students' understanding and application of the concepts covered in phase-0 to the first week of phase-1. By testing their knowledge, we aim to evaluate their progress and ensure a strong foundation in HTML and JavaScript.
+This repository contains a series of code challenges designed to assess students' understanding and application of the concepts covered in phase-0 to the first week of phase-1. By testing their knowledge, it aims to evaluate progress and ensure a strong foundation in JavaScript.
 
-These challenges not only serve as a form of evaluation but also present real-life problems that students may encounter in their future development endeavors. By solving these challenges, students will gain practical experience and learn how to apply their HTML and JavaScript skills to solve real-world problems.
+These challenges not only serve as a form of evaluation but also present real-life problems that students may encounter in their future development endeavors. By solving these challenges, students will gain practical experience and learn how to apply their JavaScript skills to solve real-world problems.
 
 The challenges cover a wide range of topics, including but not limited to form validation, DOM manipulation, and basic algorithms. By working through these challenges, students will strengthen their understanding of solving real world problems.
 
