@@ -1,3 +1,15 @@
+//Prompt for input of Basic Salary
+const prompt = require('prompt-sync')();
+
+// Asks for basic salary
+const basicSalary = parseFloat(prompt("Enter the basic salary: "));
+
+// Asks for benefits
+const benefits = parseFloat(prompt("Enter the benefits: "));
+
+// Calculate salary details
+let salaryDetails = calculateNetSalary(basicSalary, benefits);
+
 // Function declaration that calculates Basic Salary
 function calculateNetSalary(basicSalary, benefits) {
 
@@ -75,15 +87,8 @@ function calculateNetSalary(basicSalary, benefits) {
     };
   }
   
-  // Example usage
-  let basicSalary = 50000;
-  let benefits = 10000;
-  
-  let salaryDetails = calculateNetSalary(basicSalary, benefits);
-  
   // Displays corresponding values of Payee Tax, NHIF Deduction, NSSF Deduction and Net salary
   console.log("Payee Tax: " + salaryDetails.payeeTax);
   console.log("NHIF Deduction: " + salaryDetails.nhifDeduction);
   console.log("NSSF Deduction: " + salaryDetails.nssfDeduction);
   console.log("Net Salary: " + salaryDetails.netSalary);
-  
