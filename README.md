@@ -6,7 +6,7 @@ This repository contains a series of code challenges designed to assess students
 
 These challenges not only serve as a form of evaluation but also present real-life problems that students may encounter in their future development endeavors. By solving these challenges, students will gain practical experience and learn how to apply their JavaScript skills to solve real-world problems.
 
-The challenges cover a wide range of topics, including but not limited to form validation, DOM manipulation, and basic algorithms. By working through these challenges, students will strengthen their understanding of solving real world problems.
+The challenges cover a wide range of topics, including but not limited to form validation, DOM manipulation, and basic algorithms. By working through these challenges, students will strengthen their understanding of solving real world problems. The first problem (Problem-1) involves a grade calculator, (Problem-2) involves a Speed-Point calculator while (Problem-3) involves a Tax and benefits calculator.
 
 
 #Project Setup
