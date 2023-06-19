@@ -1,20 +1,26 @@
-function calculateDemeritPoints(speed) { // Declaring a function that generates responses with responses to demerit points with respect to speed
+// Prompt the user to enter the speed using the prompt-sync package (npm prompt-sync install)
+const prompt = require('prompt-sync')();
+const speed = parseFloat(prompt("Enter the car's speed: "));
 
-    // Variable declaration with constants of different variables
+// Declaration of speed limits and other constants
 const speedLimit = 70;              // Speed limit in km/hr
 const kmPerDemeritPoint = 5;        // Number of km per demerit point
-const maxDemeritPoints = 12;        // Maximum allowed demerit point
-}
+const maxDemeritPoints = 12;        // Maximum allowed demerit points
 
-if (speed <= speedLimit) {          // Condition that ensures speed is within the limit
+function calculateDemeritPoints(speed) {  // Calling the function that calculates demerit points
+  if (speed <= speedLimit) {
     console.log("Ok");
     return;
-}
-const demeritPoints = Math.floor((speed-speedLimit)/ kmPerDemeritPoint); // varaiable declaration 
+  }
 
-if (demeritPoints > maxDemeritPoints) { // Conditional statement that displays suspension of license if points execeed the max (12 points)
+  const demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoint); // Function that calculates demerit points
+
+  if (demeritPoints > maxDemeritPoints) { //Conditional statement that compares demerit points with max demerit points
     console.log("License suspended");
-
-} else {                                // Conditional statement that displays points if latter conditions are not met
-    console.log("Points: "+ demeritPoints); 
+  } else {
+    console.log("Points: " + demeritPoints);
+  }
 }
+
+// Calling the function with the entered speed
+calculateDemeritPoints(speed);
